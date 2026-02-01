@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+# 🚀 Landing Page - Proyecto Integrador
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![React](https://img.shields.io/badge/React-18.x-61DAFB?logo=react&logoColor=white)](https://reactjs.org/)
+[![Lucide Icons](https://img.shields.io/badge/Lucide-Icons-F56565?logo=lucide&logoColor=white)](https://lucide.dev/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-## Available Scripts
+> Una landing page futurista y completamente responsive desarrollada con React para presentar nuestro proyecto integrador de desarrollo web.
 
-In the project directory, you can run:
+![Preview](https://via.placeholder.com/1200x600/0a0a0a/00ffff?text=Landing+Page+Preview)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Características
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 🎨 **Diseño Futurista**: Efectos de neón, gradientes cyan/púrpura y animaciones suaves
+- 📱 **100% Responsive**: Optimizado para móviles, tablets y desktop
+- ⚡ **Componentes Modulares**: Arquitectura escalable y mantenible
+- 🎭 **Animaciones CSS**: Grid animado, efectos hover y transiciones fluidas
+- 🔧 **Código Limpio**: Separación de responsabilidades y buenas prácticas
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📁 Estructura del Proyecto
+```
+landing-project-integrador/
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+├── src/
+│   ├── components/          # Componentes de UI
+│   │   ├── Hero.jsx         # Sección principal con título
+│   │   ├── About.jsx        # Descripción del proyecto
+│   │   ├── Team.jsx         # Cards del equipo
+│   │   ├── Technologies.jsx # Stack tecnológico
+│   │   └── Footer.jsx       # Pie de página
+│   ├── data/                # Datos del proyecto
+│   │   ├── teamData.js      # Información del equipo
+│   │   └── techData.js      # Tecnologías utilizadas
+│   ├── styles/              # Estilos globales
+│   │   └── animations.css   # Animaciones y efectos
+│   ├── App.js               # Componente principal
+│   └── index.js             # Punto de entrada
+├── package.json
+└── README.md
+```
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Tecnologías Utilizadas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Frontend
+- **React 18** - Biblioteca de JavaScript para interfaces de usuario
+- **Lucide React** - Iconos modernos y customizables
+- **CSS3** - Animaciones y estilos personalizados
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Herramientas
+- **Create React App** - Configuración inicial del proyecto
+- **Git & GitHub** - Control de versiones
+- **npm** - Gestión de dependencias
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🚀 Instalación y Uso
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerrequisitos
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Node.js >= 18.x
+- npm >= 9.x
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Instalación
 
-## Learn More
+1. **Clonar el repositorio**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+\`\`\`bash
+git clone https://github.com/JORED666/LandingPage_IntegrativeProject.git
+cd LandingPage_IntegrativeProject
+\`\`\`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. **Instalar dependencias**
 
-### Code Splitting
+\`\`\`bash
+npm install
+\`\`\`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. **Iniciar servidor de desarrollo**
 
-### Analyzing the Bundle Size
+\`\`\`bash
+npm start
+\`\`\`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+La aplicación se abrirá en [http://localhost:3000](http://localhost:3000)
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📦 Scripts Disponibles
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+\`\`\`bash
+npm start        # Inicia el servidor de desarrollo
+npm run build    # Genera versión de producción
+npm test         # Ejecuta las pruebas
+npm run eject    # Expone configuración (irreversible)
+\`\`\`
